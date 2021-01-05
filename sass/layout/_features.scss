@@ -1,0 +1,31 @@
+.features-list {
+  display: flex;
+  justify-content: space-between;
+
+  &-item {
+    width: 270px;
+  }
+
+  &-img {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    margin-bottom: 30px;
+
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  }
+
+  &-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+  }
+
+  &-descr {
+    color: var(--main-text-color);
+  }
+}
